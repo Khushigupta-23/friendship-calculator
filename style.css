@@ -1,0 +1,78 @@
+/* Body and overall page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient from purple to blue */
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 12px;
+    margin: 15px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 250px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  input::placeholder {
+    color: #fff;
+  }
+  
+  input:focus {
+    border-color: #2575fc;
+  }
+  
+  button {
+    padding: 12px 25px;
+    background-color: #2575fc;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #6a11cb;
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #fff;
+  }
+  
+  .heart, .hug, .sad {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  
+  .heart {
+    color: #ff4081; /* Pink color */
+  }
+  
+  .hug {
+    color: #ff80ab; /* Light pink */
+  }
+  
+  .sad {
+    color: #607d8b; /* Muted blue-gray */
+  }
+  
