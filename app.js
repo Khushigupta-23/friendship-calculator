@@ -5,8 +5,7 @@ function calculateFriendship() {
     // Calculate total length of both names
     const totalLength = name1.length + name2.length;
 
-    // Calculate compatibility score out of 100
-    let score = (totalLength * 10) % 120; // Multiply to increase score range, and keep it within 0-100
+    let score = (totalLength * 10) % 120;
 
     let resultMessage = "";
     let emoji = "";
