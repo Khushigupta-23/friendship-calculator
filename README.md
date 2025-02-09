@@ -37,6 +37,7 @@ Welcome to the **Friendship Calculator**! This fun web application calculates th
 
 Feel free to fork this repository and make improvements. You can add more factors for calculating friendship compatibility, improve the UI, or add more fun features!
 
----
+## Live Demo
+ https://khushigupta-23.github.io/friendship-calculator/
 
 Enjoy using this fun and interactive tool, and see how strong your friendship really is! 😄
